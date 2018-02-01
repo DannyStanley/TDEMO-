@@ -1,0 +1,984 @@
+﻿Log file open, 01/25/18 14:32:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AntsGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-116218789) SRandInit(-116218788).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.457761
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Game Dev/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.25-14.32.21:541][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-14.32.21:541][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.25-14.32.21:605][  0]LogInit: Computer: LAPTOP-CLI7GUMK
+[2018.01.25-14.32.21:605][  0]LogInit: User: Gary
+[2018.01.25-14.32.21:605][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.25-14.32.21:605][  0]LogInit: High frequency timer resolution =2.835935 MHz
+[2018.01.25-14.32.21:606][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.25-14.32.21:606][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.25-14.32.21:606][  0]LogMemory: Process Physical Memory: 278.90 MB used, 278.90 MB peak
+[2018.01.25-14.32.21:606][  0]LogMemory: Process Virtual Memory: 276.98 MB used, 276.98 MB peak
+[2018.01.25-14.32.21:606][  0]LogMemory: Physical Memory: 4007.84 MB used,  4078.28 MB free, 8086.12 MB total
+[2018.01.25-14.32.21:606][  0]LogMemory: Virtual Memory: 658.22 MB used,  4078.28 MB free, 134217728.00 MB total
+[2018.01.25-14.32.22:133][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.25-14.32.22:133][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.25-14.32.22:149][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.25-14.32.24:849][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.25-14.32.24:886][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.01.25-14.32.24:886][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.01.25-14.32.24:894][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.25-14.32.24:894][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.25-14.32.24:894][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.25-14.32.24:916][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.25-14.32.24:917][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.25-14.32.24:917][  0]LogWindows: EnumDisplayDevices:
+[2018.01.25-14.32.24:917][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.01.25-14.32.24:919][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.01.25-14.32.24:920][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.01.25-14.32.24:920][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.01.25-14.32.24:920][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.01.25-14.32.24:920][  0]LogD3D11RHI:   Driver Version: 22.20.16.4836 (internal:22.20.16.4836, unified:22.20.16.4836)
+[2018.01.25-14.32.24:920][  0]LogD3D11RHI:      Driver Date: 10-17-2017
+[2018.01.25-14.32.24:920][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.25-14.32.24:948][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.25-14.32.24:969][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.01.25-14.32.24:973][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Projects/AntsGame/Intermediate/Shaders/WorkingDirectory/12192/).
+[2018.01.25-14.32.24:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gary/AppData/Local/Temp/UnrealShaderWorkingDir/4F8457FE48645FF29F3183B4A064CE95/'.
+[2018.01.25-14.32.24:974][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.25-14.32.28:198][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.25-14.32.28:353][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.25-14.32.28:503][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.25-14.32.28:657][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.25-14.32.28:824][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.25-14.32.28:977][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.25-14.32.29:125][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.25-14.32.29:261][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.25-14.32.29:387][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.25-14.32.29:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.25-14.32.29:685][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.25-14.32.29:825][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.25-14.32.29:975][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.25-14.32.30:115][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.25-14.32.30:253][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.25-14.32.30:530][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.25-14.32.30:530][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.25-14.32.30:637][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.25-14.32.30:851][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.25-14.32.30:950][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.25-14.32.31:090][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.25-14.32.31:228][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.25-14.32.31:399][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.25-14.32.31:538][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.25-14.32.31:538][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.25-14.32.32:833][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.25-14.32.33:175][  0]LogDerivedDataCache: Loaded boot cache 0.34s 93MB C:/Users/Gary/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.25-14.32.33:176][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gary/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.25-14.32.33:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/AntsGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.25-14.32.33:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.25-14.32.33:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/AntsGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.25-14.32.33:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.25-14.32.33:233][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.25-14.32.33:247][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gary/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.25-14.32.33:279][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.25-14.32.33:280][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.25-14.32.33:282][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-14.32.33:282][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-14.32.34:121][  0]LogAssetRegistry: FAssetRegistry took 0.0360 seconds to start up
+[2018.01.25-14.32.34:572][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-14.32.36:025][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.25-14.32.36:175][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.25-14.32.36:176][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.25-14.32.36:176][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.25-14.32.36:176][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.25-14.32.36:176][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.25-14.32.36:182][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.25-14.32.37:956][  0]LogNetVersion: AntsGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3821802436)
+[2018.01.25-14.32.38:915][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.299341 seconds
+[2018.01.25-14.32.38:940][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.01.25-14.32.38:940][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.01.25-14.32.38:941][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.25-14.32.39:179][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.25-14.32.48:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.25-14.32.48:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.25-14.32.50:876][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.25-14.32.52:188][  0]SourceControl: Source control is disabled
+[2018.01.25-14.32.52:188][  0]SourceControl: Source control is disabled
+[2018.01.25-14.32.52:341][  0]SourceControl: Source control is disabled
+[2018.01.25-14.32.52:477][  0]SourceControl: Source control is disabled
+[2018.01.25-14.32.54:306][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.25-14.32.55:080][  0]LogOcInput: OculusInput pre-init called
+[2018.01.25-14.32.55:848][  0]LogEngine: Initializing Engine...
+[2018.01.25-14.32.55:855][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.25-14.32.56:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.25-14.32.56:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.25-14.32.57:050][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.25-14.32.57:096][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-14.32.57:173][  0]LogInit: FAudioDevice initialized.
+[2018.01.25-14.32.57:396][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/Gary/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.25-14.32.57:437][  0]LogInit: Texture streaming: Enabled
+[2018.01.25-14.32.57:811][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.25-14.32.58:560][  0]LogInit: Transaction tracking system initialized
+[2018.01.25-14.32.59:493][  0]BlueprintLog: New page: Editor Load
+[2018.01.25-14.33.02:169][  0]LocalizationService: Localization service is disabled
+[2018.01.25-14.33.04:180][  0]LogConsoleResponse: Display: 
+[2018.01.25-14.33.05:043][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.25-14.33.05:044][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.25-14.33.05:044][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.25-14.33.05:788][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/AntsGame/Content/' took 0.02s
+[2018.01.25-14.33.08:186][  0]SourceControl: Source control is disabled
+[2018.01.25-14.33.08:186][  0]Cmd: MAP LOAD FILE="../../../../Projects/AntsGame/Content/Levels/PicnicLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.25-14.33.08:189][  0]LightingResults: New page: Lighting Build
+[2018.01.25-14.33.08:304][  0]MapCheck: New page: Map Check
+[2018.01.25-14.33.08:305][  0]LightingResults: New page: Lighting Build
+[2018.01.25-14.33.11:350][  0]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.01.25-14.33.11:632][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.25-14.33.11:697][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.25-14.33.11:882][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 184.782ms to complete.
+[2018.01.25-14.33.11:882][  0]LogFileHelpers: Loading map 'PicnicLevel' took 3.696
+[2018.01.25-14.33.13:023][  0]LogCollectionManager: Loaded 0 collections in 0.008294 seconds
+[2018.01.25-14.33.13:426][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/AntsGame/Saved/Collections/' took 0.01s
+[2018.01.25-14.33.13:426][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/AntsGame/Content/Developers/Gary/Collections/' took 0.01s
+[2018.01.25-14.33.13:426][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/AntsGame/Content/Collections/' took 0.01s
+[2018.01.25-14.33.13:426][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.25-14.33.13:486][  0]LogContentBrowser: Native class hierarchy populated in 0.0554 seconds. Added 2386 classes and 500 folders.
+[2018.01.25-14.33.13:795][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2018.01.25-14.33.15:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2018.01.25-14.33.16:105][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0040 seconds. Added 1 classes and 2 folders.
+[2018.01.25-14.33.17:931][  0]LogSlate: Took 0.001873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-14.33.17:960][  0]LogSlate: Took 0.001295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.25-14.33.18:054][  0]LogSlate: Took 0.024828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.25-14.33.18:962][  0]LogRenderer: Reallocating scene render targets to support 1008x472 Format 10 NumSamples 1 (Frame:1).
+[2018.01.25-14.33.23:706][  0]LogSlate: Took 0.013308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-14.33.24:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2018.01.25-14.33.24:208][  0]LogLoad: (Engine Initialization) Total time: 71.26 seconds
+[2018.01.25-14.33.24:208][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.25-14.33.24:209][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.25-14.33.24:629][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.25-14.33.25:918][  4]LogAssetRegistry: Asset discovery search completed in 51.8211 seconds
+[2018.01.25-14.33.25:933][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.01.25-14.33.25:933][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000436 seconds (updated 0 objects)
+[2018.01.25-14.33.32:458][ 25]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.25-14.33.32:856][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.01.25-14.33.32:856][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.25-14.33.32:878][ 25]PIE: New page: PIE session: PicnicLevel (25 Jan 2018 14:33:32)
+[2018.01.25-14.33.32:882][ 25]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.01.25-14.33.33:038][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155159s)
+[2018.01.25-14.33.33:043][ 25]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.01.25-14.33.33:044][ 25]LogPlayLevel: PIE: World Init took: (0.006332s)
+[2018.01.25-14.33.33:046][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.163480s)
+[2018.01.25-14.33.33:157][ 25]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-14.33.33:235][ 25]LogInit: FAudioDevice initialized.
+[2018.01.25-14.33.33:345][ 25]LogLoad: Game class is 'AntsGamemode_C'
+[2018.01.25-14.33.33:431][ 25]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 60) at 2018.01.25-14.33.33
+[2018.01.25-14.33.33:511][ 25]LogWorld: Bringing up level for play took: 0.146783
+[2018.01.25-14.33.33:814][ 25]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0069 seconds. Added 11 classes and 0 folders.
+[2018.01.25-14.33.33:851][ 25]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 1.353
+[2018.01.25-14.33.33:853][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.01.25-14.39.01:593][429]LogNet: Browse: /Game/Levels/Blank
+[2018.01.25-14.39.01:595][429]LogLoad: LoadMap: /Game/Levels/Blank
+[2018.01.25-14.39.01:690][429]Cmd: MEM
+[2018.01.25-14.39.01:892][429]LogMemory: Platform Memory Stats for Windows
+[2018.01.25-14.39.01:892][429]LogMemory: Process Physical Memory: 1541.96 MB used, 1597.41 MB peak
+[2018.01.25-14.39.01:892][429]LogMemory: Process Virtual Memory: 1494.96 MB used, 1562.99 MB peak
+[2018.01.25-14.39.01:892][429]LogMemory: Physical Memory: 5111.33 MB used,  2974.79 MB free, 8086.12 MB total
+[2018.01.25-14.39.01:893][429]LogMemory: Virtual Memory: 2331.82 MB used,  2974.79 MB free, 134217728.00 MB total
+[2018.01.25-14.39.01:893][429]LogMemory: 
+[2018.01.25-14.39.01:893][429]Allocator Stats for TBB: (not implemented)
+[2018.01.25-14.39.04:117][429]LogAIModule: Creating AISystem for world Blank
+[2018.01.25-14.39.04:118][429]LogLoad: Game class is 'GameModeBase'
+[2018.01.25-14.39.04:154][429]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Blank.Blank up for play (max tick rate 60) at 2018.01.25-14.39.04
+[2018.01.25-14.39.04:155][429]LogWorld: Bringing up level for play took: 0.033904
+[2018.01.25-14.39.04:156][429]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.25-14.39.04:163][429]LogLoad: Took 2.568741 seconds to LoadMap(/Game/Levels/Blank)
+[2018.01.25-14.39.07:127][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.01.25-14.39.07:252][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.01.25-15.02.38:379][957]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.02.38:987][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.02.51:510][994]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.02.57:521][ 10]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.02.59:037][ 12]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.02.59:980][ 14]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.05:049][ 29]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.07:960][ 37]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.08:626][ 38]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.09:541][ 39]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.24:261][ 81]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.24:827][ 82]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.26:142][ 86]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.47:079][241]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.47:625][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.51:218][252]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.51:966][254]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.52:677][255]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.55:587][262]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.03.56:245][263]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.03:466][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.10:716][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.11:523][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.12:644][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.12:950][307]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.14:171][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.21:724][330]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.22:570][331]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.23:200][333]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.23:746][334]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.24:619][336]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.25:804][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.27:766][344]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.30:367][351]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.32:235][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.33:046][356]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.35:027][362]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.40:752][379]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.41:950][382]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.46:638][396]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.49:585][404]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.51:246][406]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.51:920][408]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.52:618][409]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.56:405][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.56:927][420]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.04.58:985][426]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.02:652][436]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.03:217][437]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.04:547][438]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.09:325][451]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.11:017][456]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.16:080][471]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.17:398][475]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.18:549][476]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.31:238][513]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.32:194][515]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.36:687][526]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.43:021][544]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.46:448][553]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.47:906][555]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.48:550][557]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.51:134][564]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.52:844][568]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.53:357][569]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.56:317][577]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.56:818][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.58:816][583]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.05.59:419][584]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.00:481][585]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.06:784][603]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.07:852][604]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.08:625][605]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.10:436][610]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.11:081][612]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.11:686][613]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.13:139][617]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.23:888][649]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.25:502][653]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.26:515][655]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.28:056][659]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.31:516][668]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.33:001][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.35:338][679]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.36:915][683]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.37:490][684]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.38:579][685]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.41:669][692]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.42:483][693]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.43:184][694]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.46:027][702]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.47:367][705]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.51:916][718]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.54:128][724]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.56:958][732]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.06.59:015][738]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.07:477][763]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.09:014][766]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.09:864][767]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.30:558][827]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.31:876][831]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.33:669][836]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.34:481][837]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.41:647][855]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.42:338][857]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.45:320][866]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.47:046][871]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.47:698][873]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.48:255][874]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.51:988][884]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.52:482][885]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.56:047][892]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.07.56:700][893]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.00:340][903]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.00:890][904]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.06:740][919]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.10:399][928]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.11:872][932]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.15:735][943]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.16:247][944]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.17:589][947]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.21:406][957]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.22:151][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.23:423][962]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.25:675][968]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.26:506][969]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.28:111][974]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.36:028][997]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.41:128][ 12]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.42:206][ 15]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.43:482][ 18]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.45:493][ 24]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.47:065][ 28]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.47:689][ 30]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.53:404][ 47]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.57:787][ 59]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.08.59:556][ 61]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.00:169][ 63]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.06:398][ 81]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.08:895][ 88]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.10:717][ 93]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.26:240][138]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.35:615][166]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.37:676][172]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.38:797][174]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.47:146][198]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.47:561][199]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.51:060][209]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.09.57:981][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.16:574][284]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.17:167][285]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.18:829][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.24:900][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.32:525][328]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.35:199][336]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.40:369][351]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.41:567][353]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.42:541][355]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.43:704][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.44:783][358]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.10.51:974][379]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.06:750][422]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.07:279][423]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.15:905][446]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.16:319][447]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.21:280][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.23:500][467]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.25:308][469]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.26:756][473]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.27:330][474]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.28:702][478]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.32:208][486]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.32:735][487]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.35:108][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.36:636][498]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.40:293][509]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.41:366][511]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.50:806][538]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.51:337][539]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.11.54:438][548]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.12.40:837][681]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.12.41:398][682]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.12.45:275][693]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.12.47:460][698]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.12.48:894][702]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.13.04:931][749]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.13.05:580][750]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.13.20:984][796]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.13.32:586][829]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.13.46:116][866]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.01:352][910]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.06:330][923]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.09:646][932]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.10:761][934]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.16:182][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.17:182][952]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.31:056][992]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.31:726][993]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.34:505][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.35:617][  3]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.45:981][ 34]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.14.47:026][ 37]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.01:206][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.03:276][ 83]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.04:287][ 84]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.11:978][104]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.16:766][115]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.21:747][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.26:638][140]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.29:509][147]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.30:475][148]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.38:168][170]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.42:159][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.45:054][187]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.15.46:668][191]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.01:358][235]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.02:879][239]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.03:489][240]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.06:855][248]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.07:379][249]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.07:919][250]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.12:206][261]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.12:728][262]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.14:636][266]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.16:278][270]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.22:317][287]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.23:056][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.25:418][294]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.27:510][299]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.29:077][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.31:396][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.39:292][332]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.46:230][352]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.51:600][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.16.52:147][367]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.00:671][392]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.02:907][398]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.17:127][439]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.17:978][440]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.20:437][447]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.21:230][449]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.26:440][464]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.27:182][465]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.36:301][491]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.45:491][517]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.51:641][534]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.58:458][552]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.17.59:309][553]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.01:260][558]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.02:279][560]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.03:105][561]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.03:831][562]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.05:507][567]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.10:907][582]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.11:518][583]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.13:427][586]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.13:639][587]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.15:163][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.15:798][591]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.17:872][596]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.18:688][597]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.28:412][625]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.29:512][626]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.31:399][631]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.32:521][632]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.34:186][636]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.35:070][637]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.38:839][647]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.40:547][649]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.46:418][664]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.48:365][668]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.48:903][669]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.54:907][685]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.18.55:547][686]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.04:058][711]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.05:339][713]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.10:958][729]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.12:916][733]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.13:820][734]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.14:453][735]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.16:969][741]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.18:010][743]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.21:149][752]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.25:530][765]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.28:326][773]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.32:666][786]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.38:576][801]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.45:565][821]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.46:419][822]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.19.47:349][823]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.03:931][870]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.09:449][886]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.12:081][893]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.27:213][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.27:910][937]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.29:715][942]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.37:709][963]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.39:980][969]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.41:492][970]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.42:111][971]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.20.56:921][ 15]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.23:468][ 92]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.23:986][ 93]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.25:786][ 98]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.27:851][104]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.29:497][109]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.34:851][124]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.36:043][125]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.37:609][129]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.38:648][130]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.38:969][131]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.40:366][135]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.40:959][136]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.50:922][165]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.51:638][166]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.54:447][174]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.21.55:934][176]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.06:040][205]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.06:627][206]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.10:618][218]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.17:006][236]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.42:965][312]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.43:479][313]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.49:125][330]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.22.56:399][351]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.04:817][376]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.05:389][377]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.08:830][386]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.09:815][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.10:617][388]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.13:161][395]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.14:039][396]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.22:166][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.22:840][420]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.23:938][421]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.27:092][430]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.31:181][441]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.31:879][442]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.35:607][452]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.36:206][453]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.37:230][454]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.38:161][456]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.39:772][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.43:071][470]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.44:342][474]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.45:389][475]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.46:647][477]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.52:848][493]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.53:697][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.23.57:187][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.07:250][532]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.13:769][550]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.14:886][551]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.17:359][557]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.18:109][558]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.19:269][561]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.20:860][566]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.21:859][569]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.24:274][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.30:044][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.31:198][595]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.41:766][621]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.42:657][623]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.44:031][627]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.46:320][633]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.48:413][638]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.48:935][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.57:306][662]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.24.57:817][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.25.12:574][706]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.25.16:636][718]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.25.26:207][745]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.25.36:390][774]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.00:561][846]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.04:968][858]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.05:920][859]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.07:656][864]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.09:601][868]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.12:418][876]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.19:406][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.28:056][922]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.29:626][925]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.30:920][929]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.37:280][947]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.38:766][951]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.41:511][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.42:284][959]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.42:796][960]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.47:518][974]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.26.57:290][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.27.01:282][ 14]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.27.07:201][ 30]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.27.07:709][ 31]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.27.21:069][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.27.57:661][180]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.28.12:180][222]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.28.13:139][223]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.28.13:838][224]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.01.25-15.28.57:623][713]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.25-15.28.57:627][713]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.25-15.28.58:892][714]Cmd: QUIT_EDITOR
+[2018.01.25-15.28.59:514][714]LogExit: Preparing to exit.
+[2018.01.25-15.29.00:476][714]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/AntsGame/Content/' was aborted.
+[2018.01.25-15.29.00:950][714]LogExit: Editor shut down
+[2018.01.25-15.29.01:094][714]LogExit: Transaction tracking system shut down
+[2018.01.25-15.29.02:103][714]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.25-15.29.02:104][714]LogDirectoryWatcher: A directory notification for '../../../../Projects/AntsGame/Content/' was aborted.
+[2018.01.25-15.29.02:105][714]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.25-15.29.02:106][714]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.01.25-15.29.02:106][714]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.01.25-15.29.02:983][714]LogExit: Object subsystem successfully closed.
+[2018.01.25-15.29.03:070][714]LogD3D11RHI: Shutdown
+[2018.01.25-15.29.03:070][714]LogD3D11RHI: CleanupD3DDevice
+[2018.01.25-15.29.03:751][714]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.25-15.29.03:797][714]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.01.25-15.29.03:797][714]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.01.25-15.29.03:798][714]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.01.25-15.29.03:798][714]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.01.25-15.29.03:798][714]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.01.25-15.29.03:825][714]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.01.25-15.29.03:826][714]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.01.25-15.29.03:826][714]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.01.25-15.29.03:826][714]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/AntsGame/Content/Collections/' was aborted.
+[2018.01.25-15.29.03:826][714]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/AntsGame/Content/Developers/Gary/Collections/' was aborted.
+[2018.01.25-15.29.03:826][714]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/AntsGame/Saved/Collections/' was aborted.
+[2018.01.25-15.29.03:827][714]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.01.25-15.29.03:827][714]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.01.25-15.29.03:827][714]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.01.25-15.29.03:828][714]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.01.25-15.29.03:829][714]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.01.25-15.29.03:830][714]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.01.25-15.29.03:830][714]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.01.25-15.29.03:831][714]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.01.25-15.29.03:832][714]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.01.25-15.29.03:832][714]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.01.25-15.29.03:832][714]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.01.25-15.29.03:832][714]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.01.25-15.29.03:832][714]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.01.25-15.29.03:832][714]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.01.25-15.29.03:833][714]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.01.25-15.29.03:833][714]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.01.25-15.29.03:833][714]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.01.25-15.29.03:833][714]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.01.25-15.29.03:833][714]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.01.25-15.29.04:514][714]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.01.25-15.29.04:514][714]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.01.25-15.29.04:514][714]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.01.25-15.29.04:514][714]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.01.25-15.29.04:515][714]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.01.25-15.29.04:515][714]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.01.25-15.29.04:515][714]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.01.25-15.29.04:515][714]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.01.25-15.29.04:515][714]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.01.25-15.29.04:515][714]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.01.25-15.29.04:516][714]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.01.25-15.29.04:516][714]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.01.25-15.29.04:516][714]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.01.25-15.29.04:516][714]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.01.25-15.29.04:516][714]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.01.25-15.29.04:516][714]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.01.25-15.29.04:517][714]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.01.25-15.29.04:519][714]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.01.25-15.29.04:521][714]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.01.25-15.29.04:521][714]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.01.25-15.29.04:522][714]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.01.25-15.29.04:522][714]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.01.25-15.29.04:522][714]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.01.25-15.29.04:523][714]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.01.25-15.29.04:578][714]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.01.25-15.29.04:579][714]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.01.25-15.29.04:579][714]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.01.25-15.29.04:580][714]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.01.25-15.29.04:581][714]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.01.25-15.29.04:583][714]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.01.25-15.29.04:583][714]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.01.25-15.29.04:584][714]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.01.25-15.29.04:584][714]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.01.25-15.29.04:585][714]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.01.25-15.29.04:599][714]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.01.25-15.29.04:600][714]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.01.25-15.29.04:601][714]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.01.25-15.29.04:602][714]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.01.25-15.29.04:605][714]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.01.25-15.29.04:605][714]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.01.25-15.29.04:605][714]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.01.25-15.29.04:607][714]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.01.25-15.29.04:608][714]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.01.25-15.29.04:608][714]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.01.25-15.29.04:608][714]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.01.25-15.29.04:610][714]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.01.25-15.29.04:611][714]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.01.25-15.29.04:611][714]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.01.25-15.29.04:612][714]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.01.25-15.29.04:614][714]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.01.25-15.29.04:614][714]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.01.25-15.29.04:614][714]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.01.25-15.29.04:614][714]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.01.25-15.29.04:615][714]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.01.25-15.29.04:615][714]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.01.25-15.29.04:848][714]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.01.25-15.29.04:848][714]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.01.25-15.29.04:848][714]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.01.25-15.29.04:849][714]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.01.25-15.29.04:850][714]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.01.25-15.29.04:850][714]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.01.25-15.29.04:850][714]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.01.25-15.29.04:851][714]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.01.25-15.29.04:851][714]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.01.25-15.29.04:851][714]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.01.25-15.29.04:851][714]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.01.25-15.29.04:852][714]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.01.25-15.29.04:852][714]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.01.25-15.29.04:852][714]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.01.25-15.29.04:853][714]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.01.25-15.29.04:853][714]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.01.25-15.29.04:853][714]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.01.25-15.29.04:853][714]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.01.25-15.29.04:854][714]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.01.25-15.29.04:854][714]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.01.25-15.29.04:854][714]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.01.25-15.29.04:855][714]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.01.25-15.29.04:855][714]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.01.25-15.29.04:856][714]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.01.25-15.29.04:856][714]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.01.25-15.29.04:856][714]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.01.25-15.29.04:857][714]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.01.25-15.29.04:857][714]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.01.25-15.29.04:857][714]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.01.25-15.29.04:857][714]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.01.25-15.29.04:858][714]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.01.25-15.29.04:858][714]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.01.25-15.29.04:928][714]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.01.25-15.29.04:928][714]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.01.25-15.29.04:929][714]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.01.25-15.29.04:931][714]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.01.25-15.29.04:931][714]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.01.25-15.29.04:931][714]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.01.25-15.29.04:931][714]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.01.25-15.29.04:932][714]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.01.25-15.29.04:932][714]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.01.25-15.29.04:932][714]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.01.25-15.29.04:932][714]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.01.25-15.29.05:032][714]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.01.25-15.29.05:133][714]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.01.25-15.29.05:134][714]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.01.25-15.29.05:134][714]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.01.25-15.29.05:134][714]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.01.25-15.29.05:134][714]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.01.25-15.29.05:135][714]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.01.25-15.29.05:141][714]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.01.25-15.29.05:141][714]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.01.25-15.29.05:141][714]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.01.25-15.29.05:141][714]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.01.25-15.29.05:142][714]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.01.25-15.29.05:143][714]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.01.25-15.29.05:144][714]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.01.25-15.29.05:144][714]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.01.25-15.29.05:144][714]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.01.25-15.29.05:144][714]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.01.25-15.29.05:156][714]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.01.25-15.29.05:156][714]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.01.25-15.29.05:157][714]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.01.25-15.29.05:157][714]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.01.25-15.29.05:157][714]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.01.25-15.29.05:157][714]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.01.25-15.29.05:157][714]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.01.25-15.29.05:158][714]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.01.25-15.29.05:158][714]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.01.25-15.29.05:158][714]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.01.25-15.29.05:158][714]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.01.25-15.29.05:158][714]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.01.25-15.29.05:159][714]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.01.25-15.29.05:159][714]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.01.25-15.29.05:159][714]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.01.25-15.29.05:159][714]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.01.25-15.29.05:187][714]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.25-15.29.05:261][714]LogDerivedDataCache: Shutdown
+[2018.01.25-15.29.05:261][714]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.25-15.29.05:262][714]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.25-15.29.05:262][714]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.25-15.29.05:263][714]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.25-15.29.05:263][714]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.25-15.29.05:263][714]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.25-15.29.05:264][714]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.25-15.29.05:264][714]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.25-15.29.05:264][714]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.25-15.29.05:264][714]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.25-15.29.05:265][714]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.25-15.29.05:265][714]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.25-15.29.05:265][714]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.25-15.29.05:265][714]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.25-15.29.05:266][714]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.25-15.29.05:266][714]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.25-15.29.05:266][714]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.25-15.29.05:266][714]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.25-15.29.05:267][714]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.25-15.29.05:267][714]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.25-15.29.05:267][714]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.25-15.29.05:267][714]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.25-15.29.05:268][714]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.25-15.29.05:268][714]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.25-15.29.05:268][714]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.25-15.29.05:268][714]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.25-15.29.05:269][714]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.25-15.29.05:269][714]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.25-15.29.05:270][714]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.25-15.29.05:270][714]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.25-15.29.05:270][714]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.25-15.29.05:270][714]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.25-15.29.05:271][714]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.25-15.29.05:271][714]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.25-15.29.05:271][714]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.25-15.29.05:271][714]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.25-15.29.05:272][714]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.25-15.29.05:273][714]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.01.25-15.29.05:273][714]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.01.25-15.29.05:273][714]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.01.25-15.29.05:273][714]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.25-15.29.05:273][714]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.25-15.29.05:273][714]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.25-15.29.05:273][714]LogOnline: Display: Unloading online subsystem: NULL
+[2018.01.25-15.29.05:274][714]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.25-15.29.05:275][714]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.25-15.29.05:275][714]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.25-15.29.05:275][714]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4B6D3795-4E6B-7F30-22E9-E9BADEE90D26%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=8310b7f844940d5f8d1c80a09722da98%7Cd99c23929b9c4683916438a68043639f%7C625fbe65-b002-4b2e-9128-058dcbb6f404&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.25-15.29.05:305][714]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.25-15.29.05:310][714]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.01.25-15.29.05:310][714]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.01.25-15.29.05:311][714]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.01.25-15.29.05:311][714]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.01.25-15.29.05:311][714]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.01.25-15.29.05:311][714]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.01.25-15.29.05:311][714]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.01.25-15.29.05:328][714]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.01.25-15.29.05:328][714]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.01.25-15.29.05:328][714]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.01.25-15.29.05:328][714]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.01.25-15.29.05:328][714]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.01.25-15.29.05:329][714]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.01.25-15.29.05:329][714]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.01.25-15.29.05:329][714]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.01.25-15.29.05:329][714]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.25-15.29.05:329][714]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.25-15.29.05:329][714]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.25-15.29.05:334][714]LogExit: Exiting.
+[2018.01.25-15.29.05:481][714]Log file closed, 01/25/18 15:29:05
