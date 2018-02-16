@@ -1,0 +1,680 @@
+﻿Log file open, 02/12/18 21:49:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AntsGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(9879039) SRandInit(9879039).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.286666
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Game Dev/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.12-21.49.45:555][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.12-21.49.45:555][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.12-21.49.45:628][  0]LogInit: Computer: LAPTOP-CLI7GUMK
+[2018.02.12-21.49.45:629][  0]LogInit: User: Gary
+[2018.02.12-21.49.45:629][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.12-21.49.45:629][  0]LogInit: High frequency timer resolution =2.835939 MHz
+[2018.02.12-21.49.45:629][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.12-21.49.45:629][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.12-21.49.45:629][  0]LogMemory: Process Physical Memory: 280.69 MB used, 280.69 MB peak
+[2018.02.12-21.49.45:629][  0]LogMemory: Process Virtual Memory: 277.11 MB used, 277.11 MB peak
+[2018.02.12-21.49.45:629][  0]LogMemory: Physical Memory: 4874.86 MB used,  3211.26 MB free, 8086.12 MB total
+[2018.02.12-21.49.45:629][  0]LogMemory: Virtual Memory: 692.08 MB used,  3211.26 MB free, 134217728.00 MB total
+[2018.02.12-21.49.45:919][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.12-21.49.45:919][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.12-21.49.45:926][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.12-21.49.47:324][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.12-21.49.47:342][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.02.12-21.49.47:342][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.02.12-21.49.47:345][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.12-21.49.47:345][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.12-21.49.47:345][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.12-21.49.47:354][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.12-21.49.47:354][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.12-21.49.47:354][  0]LogWindows: EnumDisplayDevices:
+[2018.02.12-21.49.47:354][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.02.12-21.49.47:354][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.02.12-21.49.47:354][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.02.12-21.49.47:355][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.12-21.49.47:355][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.02.12-21.49.47:355][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.12-21.49.47:355][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.12-21.49.47:355][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.12-21.49.47:367][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.12-21.49.47:378][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.02.12-21.49.47:380][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../Projects/TDEMO-/Intermediate/Shaders/WorkingDirectory/13728/).
+[2018.02.12-21.49.47:380][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gary/AppData/Local/Temp/UnrealShaderWorkingDir/2680F6914902EA574C048E868FB86476/'.
+[2018.02.12-21.49.47:380][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.12-21.49.49:178][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.12-21.49.49:263][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.12-21.49.49:392][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.12-21.49.49:630][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.12-21.49.49:931][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.12-21.49.50:244][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.12-21.49.50:506][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.12-21.49.50:716][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.12-21.49.50:903][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.12-21.49.51:125][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.12-21.49.51:429][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.12-21.49.51:671][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.12-21.49.51:894][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.12-21.49.52:102][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.12-21.49.52:322][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.12-21.49.52:729][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.12-21.49.52:730][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.12-21.49.52:892][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.12-21.49.53:219][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.12-21.49.53:345][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.12-21.49.53:548][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.12-21.49.53:754][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.12-21.49.53:992][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.12-21.49.54:214][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.12-21.49.54:214][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.12-21.49.56:228][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.12-21.49.56:583][  0]LogDerivedDataCache: Loaded boot cache 0.35s 93MB C:/Users/Gary/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.12-21.49.56:583][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gary/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.12-21.49.56:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projects/TDEMO-/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.12-21.49.56:584][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.12-21.49.56:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projects/TDEMO-/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.12-21.49.56:584][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.12-21.49.56:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.12-21.49.56:695][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gary/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.12-21.49.56:738][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.12-21.49.56:739][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.12-21.49.56:742][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.12-21.49.56:742][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.12-21.49.57:870][  0]LogAssetRegistry: FAssetRegistry took 0.0427 seconds to start up
+[2018.02.12-21.49.58:513][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.12-21.50.00:038][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.12-21.50.00:198][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.12-21.50.00:198][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.12-21.50.00:199][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.12-21.50.00:199][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.12-21.50.00:199][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.12-21.50.00:246][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.12-21.50.02:161][  0]LogNetVersion: AntsGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3821802436)
+[2018.02.12-21.50.03:228][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.216457 seconds
+[2018.02.12-21.50.03:253][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.12-21.50.03:253][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.02.12-21.50.03:253][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.12-21.50.03:498][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.12-21.50.15:212][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.12-21.50.15:337][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.12-21.50.17:962][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.12-21.50.19:725][  0]SourceControl: Source control is disabled
+[2018.02.12-21.50.19:725][  0]SourceControl: Source control is disabled
+[2018.02.12-21.50.19:977][  0]SourceControl: Source control is disabled
+[2018.02.12-21.50.20:164][  0]SourceControl: Source control is disabled
+[2018.02.12-21.50.22:794][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.12-21.50.23:911][  0]LogOcInput: OculusInput pre-init called
+[2018.02.12-21.50.24:925][  0]LogEngine: Initializing Engine...
+[2018.02.12-21.50.24:934][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.12-21.50.25:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.12-21.50.25:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.12-21.50.26:534][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.12-21.50.26:606][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-21.50.26:698][  0]LogInit: FAudioDevice initialized.
+[2018.02.12-21.50.26:961][  0]LogDerivedDataCache: Saved boot cache 0.26s 93MB C:/Users/Gary/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.12-21.50.27:003][  0]LogInit: Texture streaming: Enabled
+[2018.02.12-21.50.27:534][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.12-21.50.28:550][  0]LogInit: Transaction tracking system initialized
+[2018.02.12-21.50.29:942][  0]BlueprintLog: New page: Editor Load
+[2018.02.12-21.50.33:923][  0]LocalizationService: Localization service is disabled
+[2018.02.12-21.50.36:316][  0]LogLinker: Warning: Can't find file '/Game/FlyingBP/FlyingOverview'
+[2018.02.12-21.50.36:317][  0]LogLinker: Warning: Can't find file '/Game/FlyingBP/FlyingOverview'
+[2018.02.12-21.50.36:318][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FlyingBP/FlyingOverview.FlyingOverview_C'
+[2018.02.12-21.50.37:900][  0]LogConsoleResponse: Display: 
+[2018.02.12-21.50.38:977][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.12-21.50.38:977][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.12-21.50.38:977][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.12-21.50.38:997][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/' took 0.02s
+[2018.02.12-21.50.43:822][  0]SourceControl: Source control is disabled
+[2018.02.12-21.50.43:823][  0]Cmd: MAP LOAD FILE="../../../../Projects/TDEMO-/Content/Levels/PicnicLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.12-21.50.43:824][  0]LightingResults: New page: Lighting Build
+[2018.02.12-21.50.43:962][  0]MapCheck: New page: Map Check
+[2018.02.12-21.50.43:962][  0]LightingResults: New page: Lighting Build
+[2018.02.12-21.50.45:689][  0]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.02.12-21.50.45:772][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.12-21.50.45:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.12-21.50.45:963][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 146.483ms to complete.
+[2018.02.12-21.50.45:964][  0]LogFileHelpers: Loading map 'PicnicLevel' took 2.141
+[2018.02.12-21.50.46:196][  0]LogCollectionManager: Loaded 0 collections in 0.003690 seconds
+[2018.02.12-21.50.46:314][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/TDEMO-/Saved/Collections/' took 0.01s
+[2018.02.12-21.50.46:314][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/Developers/Gary/Collections/' took 0.01s
+[2018.02.12-21.50.46:314][  0]LogFileCache: Scanning file cache for directory 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/Collections/' took 0.01s
+[2018.02.12-21.50.46:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.12-21.50.46:334][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2386 classes and 500 folders.
+[2018.02.12-21.50.46:454][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.02.12-21.50.46:539][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.02.12-21.50.46:628][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.02.12-21.50.46:774][  0]LogSlate: Took 0.000830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.12-21.50.46:783][  0]LogSlate: Took 0.000865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.12-21.50.46:796][  0]LogSlate: Took 0.000462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.12-21.50.47:030][  0]LogRenderer: Reallocating scene render targets to support 1008x472 Format 10 NumSamples 1 (Frame:1).
+[2018.02.12-21.50.49:046][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-21.50.49:368][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.02.12-21.50.49:368][  0]LogLoad: (Engine Initialization) Total time: 67.67 seconds
+[2018.02.12-21.50.49:368][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.12-21.50.49:368][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.12-21.50.49:773][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.12-21.50.50:045][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/' took 0.32s
+[2018.02.12-21.50.54:333][  6]LogAssetRegistry: Asset discovery search completed in 56.4888 seconds
+[2018.02.12-21.50.54:345][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.12-21.50.54:345][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000128 seconds (updated 0 objects)
+[2018.02.12-21.50.57:704][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-21.50.57:992][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.50.57:992][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-21.50.57:994][ 19]PIE: New page: PIE session: PicnicLevel (12 Feb 2018 21:50:57)
+[2018.02.12-21.50.57:999][ 19]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.02.12-21.50.58:059][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060500s)
+[2018.02.12-21.50.58:064][ 19]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.02.12-21.50.58:065][ 19]LogPlayLevel: PIE: World Init took: (0.005085s)
+[2018.02.12-21.50.58:066][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.067092s)
+[2018.02.12-21.50.58:174][ 19]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-21.50.58:291][ 19]LogInit: FAudioDevice initialized.
+[2018.02.12-21.50.58:379][ 19]LogLoad: Game class is 'AntsGamemode_C'
+[2018.02.12-21.50.58:424][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 60) at 2018.02.12-21.50.58
+[2018.02.12-21.50.58:426][ 19]LogWorld: Bringing up level for play took: 0.044123
+[2018.02.12-21.50.58:598][ 19]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 11 classes and 0 folders.
+[2018.02.12-21.50.58:601][ 19]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.208
+[2018.02.12-21.50.58:602][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.51.11:106][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.51.11:214][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.51.38:964][346]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-21.51.39:882][346]LogSlate: Took 0.000467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.12-21.51.40:259][346]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 113 classes and 0 folders.
+[2018.02.12-21.51.42:287][346]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.12-21.51.42:554][347]LogSlate: Took 0.000597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.12-21.53.48:902][565]BlueprintLog: New page: Compile Laser1
+[2018.02.12-21.53.58:348][606]BlueprintLog: New page: Compile Laser1
+[2018.02.12-21.54.09:002][651]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-21.54.09:235][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.09:235][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-21.54.09:236][651]PIE: New page: PIE session: PicnicLevel (12 Feb 2018 21:54:09)
+[2018.02.12-21.54.09:239][651]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.02.12-21.54.09:316][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076306s)
+[2018.02.12-21.54.09:320][651]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.02.12-21.54.09:322][651]LogPlayLevel: PIE: World Init took: (0.005321s)
+[2018.02.12-21.54.09:323][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.083114s)
+[2018.02.12-21.54.09:527][651]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-21.54.09:576][651]LogInit: FAudioDevice initialized.
+[2018.02.12-21.54.09:636][651]LogLoad: Game class is 'AntsGamemode_C'
+[2018.02.12-21.54.09:682][651]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 60) at 2018.02.12-21.54.09
+[2018.02.12-21.54.09:684][651]LogWorld: Bringing up level for play took: 0.045475
+[2018.02.12-21.54.09:690][651]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 0.881
+[2018.02.12-21.54.09:691][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.21:137][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.21:251][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.25:752][882]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-21.54.25:866][882]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.25:866][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-21.54.25:867][882]PIE: New page: PIE session: PicnicLevel (12 Feb 2018 21:54:25)
+[2018.02.12-21.54.25:870][882]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.02.12-21.54.25:911][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040947s)
+[2018.02.12-21.54.25:913][882]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.02.12-21.54.25:913][882]LogPlayLevel: PIE: World Init took: (0.002384s)
+[2018.02.12-21.54.25:914][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.044565s)
+[2018.02.12-21.54.26:010][882]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-21.54.26:077][882]LogInit: FAudioDevice initialized.
+[2018.02.12-21.54.26:134][882]LogLoad: Game class is 'AntsGamemode_C'
+[2018.02.12-21.54.26:173][882]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 60) at 2018.02.12-21.54.26
+[2018.02.12-21.54.26:174][882]LogWorld: Bringing up level for play took: 0.038650
+[2018.02.12-21.54.26:178][882]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.631
+[2018.02.12-21.54.26:179][882]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.40:637][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.54.40:762][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.57.10:940][248]BlueprintLog: New page: Compile Turret
+[2018.02.12-21.58.26:710][486]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-21.58.26:887][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.58.26:888][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-21.58.26:889][486]PIE: New page: PIE session: PicnicLevel (12 Feb 2018 21:58:26)
+[2018.02.12-21.58.26:893][486]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.02.12-21.58.26:950][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056940s)
+[2018.02.12-21.58.26:953][486]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.02.12-21.58.26:954][486]LogPlayLevel: PIE: World Init took: (0.003908s)
+[2018.02.12-21.58.26:955][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.061972s)
+[2018.02.12-21.58.27:089][486]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-21.58.27:141][486]LogInit: FAudioDevice initialized.
+[2018.02.12-21.58.27:200][486]LogLoad: Game class is 'AntsGamemode_C'
+[2018.02.12-21.58.27:243][486]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 60) at 2018.02.12-21.58.27
+[2018.02.12-21.58.27:245][486]LogWorld: Bringing up level for play took: 0.041887
+[2018.02.12-21.58.27:250][486]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 0.44
+[2018.02.12-21.58.27:251][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.58.35:544][619]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:600][620]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:666][621]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:713][622]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:749][623]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:794][624]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:838][625]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:887][626]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.35:961][627]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:022][628]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:084][629]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:132][630]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:207][631]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:268][632]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:316][633]LogBlueprintUserMessages: [Turret_C_0] None
+[2018.02.12-21.58.36:650][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.58.36:758][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.02.12-21.58.52:409][735]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.02.12-21.58.53:617][750]BlueprintLog: New page: Compile Turret
+[2018.02.12-21.59.11:482][880]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.12-22.00.18:496][126]Cmd: QUIT_EDITOR
+[2018.02.12-22.00.19:471][126]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.12-22.00.19:482][126]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.12-22.00.19:588][126]LogExit: Preparing to exit.
+[2018.02.12-22.00.20:197][126]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/' was aborted.
+[2018.02.12-22.00.20:214][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:214][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:215][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:216][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:216][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:219][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:220][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:221][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:222][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:223][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:224][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:224][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:225][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:225][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:225][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:226][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:227][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:227][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:227][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:227][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:228][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:229][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:229][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:230][126]PIE: UWidget::RemoveFromParent() called on 'None.PicnicLevel:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-22.00.20:429][126]LogExit: Editor shut down
+[2018.02.12-22.00.20:446][126]LogExit: Transaction tracking system shut down
+[2018.02.12-22.00.21:655][126]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.12-22.00.21:656][126]LogDirectoryWatcher: A directory notification for '../../../../Projects/TDEMO-/Content/' was aborted.
+[2018.02.12-22.00.21:656][126]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.12-22.00.21:656][126]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.12-22.00.21:657][126]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.12-22.00.23:319][126]LogExit: Object subsystem successfully closed.
+[2018.02.12-22.00.23:385][126]LogD3D11RHI: Shutdown
+[2018.02.12-22.00.23:385][126]LogD3D11RHI: CleanupD3DDevice
+[2018.02.12-22.00.25:185][126]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.12-22.00.25:200][126]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.02.12-22.00.25:200][126]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.02.12-22.00.25:200][126]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.02.12-22.00.25:200][126]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.02.12-22.00.25:200][126]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.02.12-22.00.25:200][126]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.02.12-22.00.25:201][126]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.02.12-22.00.25:202][126]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.02.12-22.00.25:202][126]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.02.12-22.00.25:202][126]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.02.12-22.00.25:202][126]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/Collections/' was aborted.
+[2018.02.12-22.00.25:202][126]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/TDEMO-/Content/Developers/Gary/Collections/' was aborted.
+[2018.02.12-22.00.25:202][126]LogDirectoryWatcher: A directory notification for 'D:/Game Dev/Epic Games/Projects/TDEMO-/Saved/Collections/' was aborted.
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.02.12-22.00.25:203][126]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.02.12-22.00.25:204][126]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.02.12-22.00.25:205][126]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.02.12-22.00.25:205][126]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.02.12-22.00.25:205][126]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.02.12-22.00.25:205][126]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.02.12-22.00.25:205][126]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.02.12-22.00.25:205][126]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.02.12-22.00.25:961][126]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.02.12-22.00.25:961][126]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.02.12-22.00.25:961][126]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.02.12-22.00.25:961][126]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.02.12-22.00.25:962][126]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.02.12-22.00.25:962][126]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.02.12-22.00.25:964][126]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.02.12-22.00.25:964][126]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.02.12-22.00.25:964][126]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.02.12-22.00.25:964][126]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.02.12-22.00.25:965][126]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.02.12-22.00.25:966][126]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.02.12-22.00.25:966][126]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.02.12-22.00.25:966][126]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.02.12-22.00.25:966][126]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.02.12-22.00.25:966][126]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.02.12-22.00.25:966][126]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.02.12-22.00.26:024][126]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.02.12-22.00.26:036][126]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.02.12-22.00.26:036][126]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.02.12-22.00.26:037][126]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.02.12-22.00.26:038][126]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.02.12-22.00.26:038][126]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.02.12-22.00.26:041][126]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.02.12-22.00.26:042][126]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.02.12-22.00.26:042][126]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.02.12-22.00.26:042][126]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.02.12-22.00.26:069][126]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.02.12-22.00.26:070][126]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.02.12-22.00.26:166][126]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.02.12-22.00.26:166][126]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.02.12-22.00.26:166][126]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.02.12-22.00.26:167][126]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.02.12-22.00.26:168][126]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.02.12-22.00.26:168][126]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.02.12-22.00.26:168][126]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.02.12-22.00.26:168][126]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.02.12-22.00.26:168][126]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.02.12-22.00.26:169][126]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.02.12-22.00.26:169][126]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.02.12-22.00.26:169][126]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.02.12-22.00.26:170][126]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.02.12-22.00.26:272][126]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.02.12-22.00.26:372][126]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.02.12-22.00.26:372][126]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.02.12-22.00.26:372][126]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.02.12-22.00.26:372][126]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.02.12-22.00.26:373][126]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.02.12-22.00.26:373][126]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.02.12-22.00.26:379][126]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.02.12-22.00.26:379][126]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.02.12-22.00.26:379][126]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.02.12-22.00.26:380][126]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.02.12-22.00.26:392][126]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.02.12-22.00.26:392][126]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.02.12-22.00.26:393][126]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.02.12-22.00.26:393][126]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.02.12-22.00.26:393][126]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.02.12-22.00.26:393][126]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.02.12-22.00.26:393][126]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.02.12-22.00.26:394][126]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.02.12-22.00.26:394][126]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.02.12-22.00.26:394][126]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.02.12-22.00.26:394][126]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.02.12-22.00.26:394][126]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.02.12-22.00.26:394][126]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.02.12-22.00.26:395][126]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.02.12-22.00.26:395][126]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.02.12-22.00.26:395][126]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.02.12-22.00.26:395][126]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.02.12-22.00.26:395][126]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.02.12-22.00.26:396][126]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.02.12-22.00.26:396][126]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.02.12-22.00.26:412][126]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.02.12-22.00.26:412][126]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.02.12-22.00.26:412][126]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.02.12-22.00.26:412][126]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.02.12-22.00.26:412][126]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.02.12-22.00.26:412][126]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.02.12-22.00.26:413][126]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.02.12-22.00.26:416][126]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.12-22.00.26:474][126]LogDerivedDataCache: Shutdown
+[2018.02.12-22.00.26:474][126]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.12-22.00.26:475][126]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.12-22.00.26:476][126]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.12-22.00.26:476][126]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.12-22.00.26:476][126]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.12-22.00.26:476][126]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.12-22.00.26:476][126]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.12-22.00.26:476][126]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.12-22.00.26:477][126]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.12-22.00.26:478][126]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.12-22.00.26:479][126]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.12-22.00.26:480][126]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.12-22.00.26:481][126]LogOnline: Display: Unloading online subsystem: NULL
+[2018.02.12-22.00.26:481][126]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.12-22.00.26:481][126]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.12-22.00.26:481][126]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.12-22.00.26:481][126]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4D436310-49C0-7407-CCCA-638CC35CF2EB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=8310b7f844940d5f8d1c80a09722da98%7Cd99c23929b9c4683916438a68043639f%7C625fbe65-b002-4b2e-9128-058dcbb6f404&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.12-22.00.26:516][126]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.12-22.00.26:531][126]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.12-22.00.26:531][126]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.12-22.00.26:532][126]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.12-22.00.26:532][126]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.12-22.00.26:532][126]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.12-22.00.26:533][126]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.12-22.00.26:533][126]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.12-22.00.26:544][126]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.12-22.00.26:545][126]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.12-22.00.26:545][126]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.12-22.00.26:545][126]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.12-22.00.26:545][126]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.12-22.00.26:545][126]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.12-22.00.26:545][126]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.12-22.00.26:546][126]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.12-22.00.26:546][126]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.12-22.00.26:546][126]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.12-22.00.26:546][126]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.12-22.00.26:559][126]LogExit: Exiting.
+[2018.02.12-22.00.26:950][126]Log file closed, 02/12/18 22:00:26
