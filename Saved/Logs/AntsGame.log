@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 04/14/18 19:50:13
+=======
+﻿Log file open, 04/14/18 20:02:00
+>>>>>>> 572d257a100e1ef7c6e0eaed011ca39effb55b10
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +13,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: AntsGame
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1387505211) SRandInit(1387505211).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.262476
+=======
+LogInit: Display: RandInit(-1837069114) SRandInit(-1837069114).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.840191
+>>>>>>> 572d257a100e1ef7c6e0eaed011ca39effb55b10
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,6 +118,7 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
+<<<<<<< HEAD
 LogInit: Command line: -EpicPortal 
 LogInit: Base directory: D:/Game Dev/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
@@ -2695,3 +2706,443 @@ Make sure 'Stage_1_level_Dig_dirt_3_Blueprint_C' has been compiled for  Get Play
 [2018.04.14-20.11.13:351][768]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.04.14-20.11.13:364][768]LogExit: Exiting.
 [2018.04.14-20.11.13:962][768]Log file closed, 04/14/18 21:11:13
+=======
+LogInit: Command line:  
+LogInit: Base directory: D:/EpicGames/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.14-19.02.02:651][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.14-19.02.02:651][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.14-19.02.02:787][  0]LogInit: Computer: MSI
+[2018.04.14-19.02.02:788][  0]LogInit: User: DannyStanley
+[2018.04.14-19.02.02:788][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.14-19.02.02:788][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2018.04.14-19.02.02:788][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.14-19.02.02:788][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.14-19.02.02:788][  0]LogMemory: Process Physical Memory: 281.76 MB used, 281.76 MB peak
+[2018.04.14-19.02.02:788][  0]LogMemory: Process Virtual Memory: 290.29 MB used, 290.29 MB peak
+[2018.04.14-19.02.02:788][  0]LogMemory: Physical Memory: 7802.11 MB used,  8467.04 MB free, 16269.15 MB total
+[2018.04.14-19.02.02:788][  0]LogMemory: Virtual Memory: 723.50 MB used,  8467.04 MB free, 134217728.00 MB total
+[2018.04.14-19.02.04:162][  0]LogInit: Using OS detected language (en-US).
+[2018.04.14-19.02.04:162][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.14-19.02.04:479][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.14-19.02.06:889][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.14-19.02.06:975][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.04.14-19.02.06:975][  0]LogD3D11RHI:       2987/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.14-19.02.06:985][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.04.14-19.02.06:985][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.14-19.02.06:987][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.14-19.02.06:987][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.14-19.02.06:987][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.14-19.02.07:232][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.14-19.02.07:232][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.14-19.02.07:232][  0]LogWindows: EnumDisplayDevices:
+[2018.04.14-19.02.07:232][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.04.14-19.02.07:232][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.14-19.02.07:233][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.14-19.02.07:233][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.04.14-19.02.07:233][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.04.14-19.02.07:233][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.04.14-19.02.07:233][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.04.14-19.02.07:233][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.14-19.02.07:234][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.04.14-19.02.07:234][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.14-19.02.07:234][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.14-19.02.07:234][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.14-19.02.07:357][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.14-19.02.07:759][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.14-19.02.07:823][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../Unreal Engine Project/TDEMO-/Intermediate/Shaders/WorkingDirectory/63288/).
+[2018.04.14-19.02.07:823][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Danny Stanley/AppData/Local/Temp/UnrealShaderWorkingDir/D6C4FA4D4F15C2AC80E6A8A0401DA91D/'.
+[2018.04.14-19.02.07:826][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.14-19.02.10:413][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.14-19.02.10:455][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.14-19.02.10:497][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.14-19.02.10:540][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.14-19.02.10:602][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.14-19.02.10:645][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.14-19.02.10:688][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.14-19.02.10:731][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.14-19.02.10:768][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.14-19.02.10:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.14-19.02.10:877][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.14-19.02.10:921][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.14-19.02.10:963][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.14-19.02.11:010][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.14-19.02.11:058][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.14-19.02.11:147][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.14-19.02.11:147][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.14-19.02.11:178][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.14-19.02.11:362][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.14-19.02.11:388][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.14-19.02.11:430][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.14-19.02.11:472][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.14-19.02.11:514][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.14-19.02.11:575][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.14-19.02.11:575][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.14-19.02.12:934][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.14-19.02.13:310][  0]LogDerivedDataCache: Loaded boot cache 0.38s 93MB C:/Users/Danny Stanley/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.14-19.02.13:310][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Danny Stanley/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.14-19.02.13:310][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Engine Project/TDEMO-/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.14-19.02.13:310][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.14-19.02.13:310][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Engine Project/TDEMO-/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.14-19.02.13:310][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.14-19.02.13:861][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.14-19.02.13:882][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Danny Stanley/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.14-19.02.14:029][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.14-19.02.14:744][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.14-19.02.14:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.14-19.02.14:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.14-19.02.21:951][  0]LogAssetRegistry: FAssetRegistry took 0.0301 seconds to start up
+[2018.04.14-19.02.23:034][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.14-19.02.25:469][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.14-19.02.26:351][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.14-19.02.26:433][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.14-19.02.26:434][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.14-19.02.26:434][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.14-19.02.26:434][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.14-19.02.26:434][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.14-19.02.29:004][  0]LogNetVersion: AntsGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3821802436)
+[2018.04.14-19.02.30:171][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.104572 seconds
+[2018.04.14-19.02.30:187][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.14-19.02.30:187][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.04.14-19.02.30:187][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.14-19.02.30:262][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.14-19.02.48:267][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.14-19.02.48:328][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.14-19.02.49:767][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.14-19.02.50:550][  0]SourceControl: Source control is disabled
+[2018.04.14-19.02.50:550][  0]SourceControl: Source control is disabled
+[2018.04.14-19.02.50:642][  0]SourceControl: Source control is disabled
+[2018.04.14-19.02.50:760][  0]SourceControl: Source control is disabled
+[2018.04.14-19.02.51:909][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.14-19.02.52:232][  0]LogOcInput: OculusInput pre-init called
+[2018.04.14-19.02.52:994][  0]LogEngine: Initializing Engine...
+[2018.04.14-19.02.53:023][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.14-19.02.53:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.14-19.02.53:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.14-19.02.54:444][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.14-19.02.54:647][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.02.54:728][  0]LogInit: FAudioDevice initialized.
+[2018.04.14-19.02.54:822][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Danny Stanley/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.14-19.02.54:831][  0]LogInit: Texture streaming: Enabled
+[2018.04.14-19.02.56:567][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.14-19.02.57:073][  0]LogInit: Transaction tracking system initialized
+[2018.04.14-19.02.57:552][  0]BlueprintLog: New page: Editor Load
+[2018.04.14-19.02.59:403][  0]LocalizationService: Localization service is disabled
+[2018.04.14-19.03.00:809][  0]LogConsoleResponse: Display: 
+[2018.04.14-19.03.03:333][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Project/TDEMO-/Content/' took 0.02s
+[2018.04.14-19.03.03:333][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.14-19.03.03:333][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.14-19.03.03:391][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.14-19.03.06:143][  0]SourceControl: Source control is disabled
+[2018.04.14-19.03.06:206][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal Engine Project/TDEMO-/Content/Levels/PicnicLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.14-19.03.06:232][  0]LightingResults: New page: Lighting Build
+[2018.04.14-19.03.06:381][  0]MapCheck: New page: Map Check
+[2018.04.14-19.03.06:381][  0]LightingResults: New page: Lighting Build
+[2018.04.14-19.03.07:100][  0]LogBlueprint: Warning: [Turret] 'Charge Bar' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:101][  0]LogBlueprint: Warning: [Turret] 'Charge Bar' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:101][  0]LogBlueprint: Warning: [Turret] 'Charge Bar 2' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:101][  0]LogBlueprint: Warning: [Turret] 'Charge Bar 2' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:628][  0]LogBlueprint: Warning: [Turret2] 'Charge Bar' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:628][  0]LogBlueprint: Warning: [Turret2] 'Charge Bar' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:628][  0]LogBlueprint: Warning: [Turret2] 'Charge Bar 2' variable not found. Base class was probably changed.
+[2018.04.14-19.03.07:628][  0]LogBlueprint: Warning: [Turret2] 'Charge Bar 2' variable not found. Base class was probably changed.
+[2018.04.14-19.03.09:328][  0]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.03.09:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.14-19.03.09:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.14-19.03.10:032][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.801ms to complete.
+[2018.04.14-19.03.10:032][  0]LogFileHelpers: Loading map 'PicnicLevel' took 3.857
+[2018.04.14-19.03.11:309][  0]LogCollectionManager: Loaded 0 collections in 0.001342 seconds
+[2018.04.14-19.03.11:471][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Project/TDEMO-/Saved/Collections/' took 0.01s
+[2018.04.14-19.03.11:471][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Project/TDEMO-/Content/Developers/DannyStanley/Collections/' took 0.01s
+[2018.04.14-19.03.11:471][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine Project/TDEMO-/Content/Collections/' took 0.01s
+[2018.04.14-19.03.11:471][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.14-19.03.11:482][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2386 classes and 500 folders.
+[2018.04.14-19.03.11:581][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.04.14-19.03.12:513][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.04.14-19.03.12:623][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.04.14-19.03.13:649][  0]LogSlate: Took 0.018066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.14-19.03.13:677][  0]LogSlate: Took 0.015627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.14-19.03.13:745][  0]LogSlate: Took 0.024561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.14-19.03.14:123][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.14-19.03.14:440][  0]LogSlate: Took 0.001717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.14-19.03.14:756][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.04.14-19.03.14:756][  0]LogLoad: (Engine Initialization) Total time: 88.55 seconds
+[2018.04.14-19.03.14:756][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.14-19.03.14:756][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.14-19.03.14:894][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.14-19.03.15:033][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal Engine Project/TDEMO-/Content/' took 0.24s
+[2018.04.14-19.03.15:051][  1]LogAssetRegistry: Asset discovery search completed in 53.1217 seconds
+[2018.04.14-19.03.15:052][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.14-19.03.15:053][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000188 seconds (updated 0 objects)
+[2018.04.14-19.03.24:117][851]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.03.24:302][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.03.24:302][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.03.24:343][851]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:03:24)
+[2018.04.14-19.03.24:343][851]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.03.24:364][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020406s)
+[2018.04.14-19.03.24:365][851]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.03.24:365][851]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2018.04.14-19.03.24:365][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.021825s)
+[2018.04.14-19.03.24:459][851]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.03.24:524][851]LogInit: FAudioDevice initialized.
+[2018.04.14-19.03.24:606][851]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.03.24:640][851]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.03.24
+[2018.04.14-19.03.24:727][851]LogWorld: Bringing up level for play took: 0.097767
+[2018.04.14-19.03.24:813][851]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.04.14-19.03.24:855][851]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 0.733
+[2018.04.14-19.03.24:872][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.03.25:028][851]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.04.14-19.03.37:833][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.03.38:035][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.03.48:179][353]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.14-19.03.48:385][353]LogAIModule: Creating AISystem for world FirstLevel
+[2018.04.14-19.03.48:430][353]Cmd: MAP LOAD FILE="../../../../../../Unreal Engine Project/TDEMO-/Content/Levels/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.14-19.03.48:430][353]LightingResults: New page: Lighting Build
+[2018.04.14-19.03.48:431][353]LoadErrors: New page: Loading map: FirstLevel.umap
+[2018.04.14-19.03.48:434][353]MapCheck: New page: Map Check
+[2018.04.14-19.03.48:434][353]LightingResults: New page: Lighting Build
+[2018.04.14-19.03.48:515][353]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.14-19.03.48:583][353]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.14-19.03.48:636][353]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.903ms to complete.
+[2018.04.14-19.03.48:637][353]LogFileHelpers: Loading map 'FirstLevel' took 0.226
+[2018.04.14-19.03.52:350][783]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.03.52:381][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Levels/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2018.04.14-19.03.52:382][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.03.52:382][783]PIE: New page: PIE session: FirstLevel (14 Apr 2018 21:03:52)
+[2018.04.14-19.03.52:383][783]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstLevel
+[2018.04.14-19.03.52:385][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002259s)
+[2018.04.14-19.03.52:386][783]LogAIModule: Creating AISystem for world FirstLevel
+[2018.04.14-19.03.52:386][783]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2018.04.14-19.03.52:386][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstLevel.FirstLevel to /Game/Levels/UEDPIE_0_FirstLevel.FirstLevel (0.003589s)
+[2018.04.14-19.03.52:462][783]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.03.52:529][783]LogInit: FAudioDevice initialized.
+[2018.04.14-19.03.52:571][783]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.03.52:573][783]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2018.04.14-20.03.52
+[2018.04.14-19.03.52:573][783]LogWorld: Bringing up level for play took: 0.001243
+[2018.04.14-19.03.52:578][783]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstLevel 0.455
+[2018.04.14-19.03.52:578][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Levels/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2018.04.14-19.03.55:425][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Levels/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2018.04.14-19.03.55:490][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Levels/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Levels/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2018.04.14-19.04.09:724][629]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.14-19.04.16:543][312]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.04.16:578][312]Cmd: MAP LOAD FILE="../../../../../../Unreal Engine Project/TDEMO-/Content/Levels/PicnicLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.14-19.04.16:578][312]LightingResults: New page: Lighting Build
+[2018.04.14-19.04.16:578][312]LoadErrors: New page: Loading map: PicnicLevel.umap
+[2018.04.14-19.04.16:579][312]MapCheck: New page: Map Check
+[2018.04.14-19.04.16:579][312]LightingResults: New page: Lighting Build
+[2018.04.14-19.04.16:676][312]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.14-19.04.16:746][312]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.14-19.04.16:800][312]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.241ms to complete.
+[2018.04.14-19.04.16:802][312]LogFileHelpers: Loading map 'PicnicLevel' took 0.225
+[2018.04.14-19.05.04:648][150]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.04.14-19.05.04:769][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_1_Tree_Trunk)
+[2018.04.14-19.05.05:725][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_1_Tree_Trunk)
+[2018.04.14-19.05.10:302][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tree_1_Tree_Trunk)
+[2018.04.14-19.05.13:382][ 78]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.14-19.05.56:628][145]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.14-19.06.09:113][600]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.06.09:148][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.09:148][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.06.09:148][600]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:06:09)
+[2018.04.14-19.06.09:149][600]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.06.09:163][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013718s)
+[2018.04.14-19.06.09:164][600]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.06.09:164][600]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2018.04.14-19.06.09:164][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.014715s)
+[2018.04.14-19.06.09:237][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.06.09:301][600]LogInit: FAudioDevice initialized.
+[2018.04.14-19.06.09:343][600]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.06.09:354][600]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.06.09
+[2018.04.14-19.06.09:354][600]LogWorld: Bringing up level for play took: 0.010103
+[2018.04.14-19.06.09:359][600]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.763
+[2018.04.14-19.06.09:359][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.10:466][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.10:540][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.13:630][ 59]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.06.13:662][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.13:662][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.06.13:662][ 59]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:06:13)
+[2018.04.14-19.06.13:663][ 59]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.06.13:677][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013900s)
+[2018.04.14-19.06.13:677][ 59]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.06.13:678][ 59]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.04.14-19.06.13:678][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.014954s)
+[2018.04.14-19.06.13:752][ 59]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.06.13:820][ 59]LogInit: FAudioDevice initialized.
+[2018.04.14-19.06.13:865][ 59]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.06.13:875][ 59]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.06.13
+[2018.04.14-19.06.13:974][ 59]LogWorld: Bringing up level for play took: 0.108900
+[2018.04.14-19.06.13:980][ 59]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.143
+[2018.04.14-19.06.13:980][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.16:118][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.16:197][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.23:251][ 97]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.04.14-19.06.27:175][506]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.06.27:207][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.27:207][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.06.27:207][506]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:06:27)
+[2018.04.14-19.06.27:208][506]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.06.27:221][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012694s)
+[2018.04.14-19.06.27:222][506]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.06.27:222][506]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2018.04.14-19.06.27:222][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.013610s)
+[2018.04.14-19.06.27:325][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.06.27:390][506]LogInit: FAudioDevice initialized.
+[2018.04.14-19.06.27:431][506]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.06.27:441][506]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.06.27
+[2018.04.14-19.06.27:442][506]LogWorld: Bringing up level for play took: 0.009630
+[2018.04.14-19.06.27:447][506]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.676
+[2018.04.14-19.06.27:447][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.41:146][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.41:303][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.55:080][547]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.06.55:111][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.55:111][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.06.55:111][547]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:06:55)
+[2018.04.14-19.06.55:112][547]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.06.55:125][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013075s)
+[2018.04.14-19.06.55:126][547]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.06.55:126][547]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2018.04.14-19.06.55:127][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.014372s)
+[2018.04.14-19.06.55:203][547]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.06.55:266][547]LogInit: FAudioDevice initialized.
+[2018.04.14-19.06.55:306][547]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.06.55:316][547]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.06.55
+[2018.04.14-19.06.55:317][547]LogWorld: Bringing up level for play took: 0.009734
+[2018.04.14-19.06.55:321][547]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 1.198
+[2018.04.14-19.06.55:330][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.57:364][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.06.57:442][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.07.19:580][336]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.07.19:612][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.07.19:612][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.07.19:612][336]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:07:19)
+[2018.04.14-19.07.19:613][336]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.07.19:625][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012464s)
+[2018.04.14-19.07.19:626][336]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.07.19:626][336]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.04.14-19.07.19:626][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.013298s)
+[2018.04.14-19.07.19:702][336]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.07.19:765][336]LogInit: FAudioDevice initialized.
+[2018.04.14-19.07.19:806][336]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.07.19:816][336]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.07.19
+[2018.04.14-19.07.19:817][336]LogWorld: Bringing up level for play took: 0.010232
+[2018.04.14-19.07.19:821][336]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.301
+[2018.04.14-19.07.19:831][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.07.27:762][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.07.27:842][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.07.30:721][527]Cmd: EDCALLBACK SURFPROPS
+[2018.04.14-19.08.14:231][ 39]LogActorFactory: Actor Factory created Plane
+[2018.04.14-19.08.14:240][ 39]LogActorFactory: Actor Factory created Plane
+[2018.04.14-19.08.16:158][253]Cmd: DELETE
+[2018.04.14-19.08.16:158][253]Cmd: ACTOR DELETE
+[2018.04.14-19.08.16:276][253]LogEditorActor: Deleted Actor: Brush
+[2018.04.14-19.08.16:288][253]LogEditorActor: Deleted 1 Actors (0.129 secs)
+[2018.04.14-19.08.16:933][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.14-19.08.17:237][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.14-19.08.30:854][940]Cmd: TRANSACTION UNDO
+[2018.04.14-19.08.30:855][940]LogEditorTransaction: Undo Scale Actors
+[2018.04.14-19.08.30:864][940]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.14-19.08.44:672][440]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.08.44:705][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.08.44:705][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.08.44:705][440]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:08:44)
+[2018.04.14-19.08.44:706][440]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.08.44:717][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011349s)
+[2018.04.14-19.08.44:718][440]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.08.44:718][440]LogPlayLevel: PIE: World Init took: (0.001267s)
+[2018.04.14-19.08.44:719][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.012981s)
+[2018.04.14-19.08.44:798][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.08.44:861][440]LogInit: FAudioDevice initialized.
+[2018.04.14-19.08.44:904][440]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.08.44:916][440]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.08.44
+[2018.04.14-19.08.44:916][440]LogWorld: Bringing up level for play took: 0.011466
+[2018.04.14-19.08.44:921][440]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 0.799
+[2018.04.14-19.08.44:922][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.08.46:723][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.08.46:818][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.08.47:427][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.14-19.08.48:086][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.14-19.08.55:480][545]LogSlate: Took 0.022237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.14-19.09.04:395][570]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.09.04:428][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.04:428][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.09.04:428][570]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:09:04)
+[2018.04.14-19.09.04:429][570]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.09.04:440][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011604s)
+[2018.04.14-19.09.04:441][570]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.09.04:442][570]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2018.04.14-19.09.04:442][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.013017s)
+[2018.04.14-19.09.04:518][570]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.09.04:580][570]LogInit: FAudioDevice initialized.
+[2018.04.14-19.09.04:625][570]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.09.04:635][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.09.04
+[2018.04.14-19.09.04:636][570]LogWorld: Bringing up level for play took: 0.009861
+[2018.04.14-19.09.04:640][570]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 0.518
+[2018.04.14-19.09.04:641][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.05:329][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.05:419][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.05:965][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.14-19.09.13:244][369]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.09.13:277][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.13:277][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.09.13:277][369]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:09:13)
+[2018.04.14-19.09.13:277][369]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.09.13:289][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011028s)
+[2018.04.14-19.09.13:289][369]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.09.13:290][369]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2018.04.14-19.09.13:290][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.012458s)
+[2018.04.14-19.09.13:368][369]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.09.13:432][369]LogInit: FAudioDevice initialized.
+[2018.04.14-19.09.13:475][369]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.09.13:485][369]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.09.13
+[2018.04.14-19.09.13:486][369]LogWorld: Bringing up level for play took: 0.010189
+[2018.04.14-19.09.13:491][369]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.632
+[2018.04.14-19.09.13:491][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.14:770][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.14:866][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.15:701][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.14-19.09.18:471][912]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.09.18:502][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.18:502][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.09.18:502][912]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:09:18)
+[2018.04.14-19.09.18:503][912]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.09.18:514][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011881s)
+[2018.04.14-19.09.18:515][912]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.09.18:515][912]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.04.14-19.09.18:516][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.013031s)
+[2018.04.14-19.09.18:590][912]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.09.18:658][912]LogInit: FAudioDevice initialized.
+[2018.04.14-19.09.18:699][912]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.09.18:710][912]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.09.18
+[2018.04.14-19.09.18:711][912]LogWorld: Bringing up level for play took: 0.010585
+[2018.04.14-19.09.18:715][912]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel 0.593
+[2018.04.14-19.09.18:716][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.21:032][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.09.21:119][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.28.59:709][564]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.14-19.28.59:754][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.28.59:754][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.14-19.28.59:755][564]PIE: New page: PIE session: PicnicLevel (14 Apr 2018 21:28:59)
+[2018.04.14-19.28.59:755][564]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PicnicLevel
+[2018.04.14-19.28.59:770][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014374s)
+[2018.04.14-19.28.59:771][564]LogAIModule: Creating AISystem for world PicnicLevel
+[2018.04.14-19.28.59:771][564]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2018.04.14-19.28.59:771][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PicnicLevel.PicnicLevel to /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel (0.015962s)
+[2018.04.14-19.28.59:874][564]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.14-19.28.59:950][564]LogInit: FAudioDevice initialized.
+[2018.04.14-19.29.00:005][564]LogLoad: Game class is 'AntsGamemode_C'
+[2018.04.14-19.29.00:021][564]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PicnicLevel.PicnicLevel up for play (max tick rate 0) at 2018.04.14-20.29.00
+[2018.04.14-19.29.00:021][564]LogWorld: Bringing up level for play took: 0.015652
+[2018.04.14-19.29.00:028][564]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PicnicLevel -0.095
+[2018.04.14-19.29.00:028][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.29.21:139][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.29.21:241][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel' with GeneratedClass '/Game/Levels/PicnicLevel.PicnicLevel_C' with ClassGeneratedBy '/Game/Levels/PicnicLevel.PicnicLevel:PersistentLevel.PicnicLevel'
+[2018.04.14-19.29.27:286][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PicnicLevel" FILE="../../../../../../Unreal Engine Project/TDEMO-/Content/Levels/PicnicLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.14-19.29.28:148][247]LogSavePackage: Save=760.24ms
+[2018.04.14-19.29.28:148][247]LogSavePackage: Moving '../../../../../../Unreal Engine Project/TDEMO-/Saved/PicnicLevel10AEDDE14033F43171B472A616925C6E.tmp' to '../../../../../../Unreal Engine Project/TDEMO-/Content/Levels/PicnicLevel.umap'
+[2018.04.14-19.29.28:155][247]LogSavePackage: Display: Finished SavePackage ../../../../../../Unreal Engine Project/TDEMO-/Content/Levels/PicnicLevel.umap
+[2018.04.14-19.29.28:213][247]LogFileHelpers: Saving map 'PicnicLevel' took 1.082
+>>>>>>> 572d257a100e1ef7c6e0eaed011ca39effb55b10
